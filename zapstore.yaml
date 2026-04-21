@@ -54,10 +54,22 @@ images:
   - assets/bittasker-app-5-chat-translation.jpg
 
 # Tags for discoverability
-tags: bitcoin lightning liquid rootstock nostr gig-economy freelance tasks payments freedom-tech android marketplace
+tags:
+  - bitcoin
+  - lightning
+  - liquid
+  - rootstock
+  - nostr
+  - gig-economy
+  - freelance
+  - tasks
+  - payments
+  - freedom-tech
+  - android
+  - marketplace
 
 # Pull additional metadata from GitLab
-remote_metadata:
+metadata_sources:
   - gitlab
 
 # Blossom servers for APK hosting
