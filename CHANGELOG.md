@@ -4,6 +4,100 @@ All notable changes to BitTasker are documented in this file.
 
 ---
 
+## [1.1.3] - 2026-05-07
+
+### 🔗 Deep Linking
+- Added deep link navigation support across the application
+- Implemented Apple deep link compatibility
+- Improved authenticated navigation flows with `returnTo` redirects after login
+
+### ⚡ Nostr Improvements
+- Fixed metadata Nostr event handling when logging in with `nsec`
+- Added safeguards to ensure metadata events are properly published
+
+### 🎨 UI/UX Improvements
+- Improved contract drawer layout and visual consistency
+
+### 🐛 Bug Fixes
+- Fixed navigation edge cases during login redirects
+- Resolved minor contract drawer UI rendering issues
+
+---
+
+## [1.1.2] - 2026-05-06
+
+### 🏠 Homepage Redesign
+- Completely redesigned featured task and service cards
+- Added prominent “Budget” and “Price” labels for better visibility
+- Added location display with map marker icons
+- Introduced line-clamped descriptions for consistent card sizing
+- Removed duplicate “View Task” / “View Service” text labels
+- Removed “View All” links from homepage section headers
+
+### 🚨 Alert Experience Improvements
+- Redesigned saved search alert cards to match platform card styles
+- Replaced filter badges with icon + text metadata rows
+- Added notification frequency display with bell icon
+- Unified edit/delete action styling with service card actions
+- Replaced alert edit/save modal with right-side drawer flow
+- Removed active/inactive toggle (alerts now remain active until deleted)
+- Changed default notification frequency from Weekly → Instant
+- Improved alert filter summaries using icon-based layouts
+
+### 🛠️ Services UX Improvements
+- Unified service detail drawer with create-service preview component
+- Renamed “View Quotes” → “Inquiries” with updated EN/ES translations
+- Consolidated service action buttons into a single responsive row
+- Added “New” CTA button next to the Map button on services browse page
+- Added “List Your Service” CTA after scrolling through service results
+- Reduced mobile header spacing on services pages
+
+### 🧭 Navigation & Menu Updates
+- Added “My Account” section to mobile bottom navigation
+  - Includes Profile and Settings shortcuts
+- Simplified logged-in support menu
+  - Removed About Us, Terms of Service, and Privacy Policy entries
+- Updated avatar dropdown navigation
+  - Added Hiring and Earning shortcuts
+  - Removed Dashboard, Find Tasks, and Contracts links
+- Shortened Spanish login label from “Iniciar Sesión” → “Iniciar”
+
+### 📅 Data & Display Refinements
+- Simplified bid date formatting by removing year display
+- Improved same-day date handling to avoid duplicate ranges
+- Removed “USD” suffix from contract amount displays
+
+### 🎨 UI/UX Improvements
+- Improved layout consistency and responsive spacing across devices
+- Fixed overlapping top navigation bars across platforms
+- Fixed overlapping bottom navigation bars across platforms
+- Resolved keyboard overlay issues covering input fields
+- Centered app store badges in mobile footer
+- Unified footer spacing between Hiring and Earning pages
+- Improved theme-aware colors for three-dot menus
+
+### 🐛 Bug Fixes
+- Fixed service title visibility on filtered request cards
+- Fixed create-service cancel button navigation behavior
+- Moved filter drawer categories to the top for better discoverability
+- Disabled swipe-to-close gesture on wallet payment modal
+
+---
+
+## [1.1.1] - 2026-05-05
+
+### 💰 Bids UX Improvements
+- Updated the “Your Offer” section UI
+- Added icons for improved visual identification
+- Improved date layout readability
+- Standardized sats formatting for better consistency and precision
+
+### 🎨 UI/UX Improvements
+- Refined bid presentation and offer information hierarchy
+- Improved readability across bidding flows
+
+---
+
 ## [1.1.0] - 2026-04-30
 
 ### ⛽ Gasless Meta-Transactions (EIP-712)
