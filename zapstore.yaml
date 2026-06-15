@@ -1,6 +1,5 @@
 # App identification
 name: BitTasker
-identifier: com.bittasker.app
 
 # Short description (one sentence)
 summary: Bitcoin-powered gig economy platform connecting taskers and taskees
@@ -34,7 +33,7 @@ description: |
 repository: https://gitlab.com/bittasker/zapstore
 
 # App homepage
-homepage: https://bittasker.com
+website: https://bittasker.com
 
 # App icon (relative to repository root)
 icon: assets/icon.png
@@ -42,8 +41,8 @@ icon: assets/icon.png
 # License
 license: MIT
 
-# Changelog file (relative to repository root)
-changelog: CHANGELOG.md
+# Release notes file (relative to repository root)
+release_notes: CHANGELOG.md
 
 # Screenshots (relative to repository root)
 images:
@@ -72,12 +71,5 @@ tags:
 metadata_sources:
   - gitlab
 
-# Blossom servers for APK hosting
-blossom_servers:
-  - https://cdn.zapstore.dev
-  - https://blossom.band
-
 # APK file pattern (regex)
-# Zapstore will look for APKs matching this pattern in GitLab releases
-assets:
-  - bittasker-v.*-universal\.apk
+match: 'bittasker-v.*-universal\.apk'
